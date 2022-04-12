@@ -1,0 +1,19 @@
+{
+    "environments": {
+        "default": {
+            "profile": "dev",
+            "workspace_dir": "/Shared/dbx/projects/dbx-example-project",
+            "artifact_location": "dbfs:/dbx/dbx-example-project"
+        },
+        "dev": {
+            "profile": "dev",
+            "workspace_dir": "/Shared/dbx/projects/dbx-example-project",
+            "artifact_location": "dbfs:/dbx/dbx-example-project"
+        },
+        "staging": {
+            "profile": "staging",
+            "workspace_dir": "/Shared/dbx/projects/dbx-example-project",
+            "artifact_location": "dbfs:/dbx/dbx-example-project"
+        }
+    }
+}
