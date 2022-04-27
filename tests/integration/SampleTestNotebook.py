@@ -27,6 +27,8 @@ class SampleJobIntegrationTest(unittest.TestCase):
         )
 
         self.assertGreater(output_count, 0)
+        # will throw
+        self.assertGreater(0, 1)
 
     def tearDown(self):
         self.dbutils.fs.rm(self.test_dir, True)
